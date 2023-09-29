@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #B79FA4;
+    display: flex;
+}
+
+.part1{
+    height: 100%;
+    width: 30%;
+}
+
+.part2{
+    height: 100%;
+    width: 63%;
+    background-image: url(https://images.unsplash.com/photo-1630568321786-82abecde2366?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    filter: brightness(75%);
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #b79fa441;
+}
+
+.part3{
+    height: 100%;
+    width: 7%;
+}
+
+#text-div{
+    height: auto;
+    width: 500px;
+    position: absolute;
+    left: 6%;
+    top: 30%;
+}
+
+#text-div h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 85px;
+    letter-spacing: 2px;
+    line-height: 72px;
+    color: white;
+    font-weight: 900;
+}
+
+#small-img{
+    height: 420px;
+    width: 300px;
+    background-image: url(https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translate(0, -50%);
+}
+
+.overlay2{
+    height: 100%;
+    width: 100%;
+    background-color: #b79fa410;
+}
+
+.vertical-text{
+    position: absolute;
+    right: -55%;
+    top: -6%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+}
+
+.vertical-text h1{
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    white-space: nowrap;
+}
+
+#nav{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#nav img{
+    height: 70px;
+    width: 70px;
+}
